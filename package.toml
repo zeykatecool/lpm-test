@@ -14,7 +14,7 @@ packages = [
 
 [Install]
 files = [
-    "main.lua",1 # Files to install
+    "main.lua", # Files to install
 ]
 
 [Build]
