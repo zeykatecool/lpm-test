@@ -1,0 +1,36 @@
+[Package]
+name = "PackageName" # Name of the package
+version = "0.0.1" # Version of the package
+description = "PackageDescription" # Description of the package
+source = "https://github.com/Username/PackageName" # Source of the package
+license = "MIT" # License of the package
+depends_on_wluart = false # Whether the package depends on wluart
+
+[Dependencies]
+luart_version = "1.8.0^" # Minimum version of luart required
+packages = [
+   # { name = "PackageName", version = "0.0.1" }
+]
+
+[Install]
+files = [
+    "main.lua", # Files to install
+]
+
+[Build]
+run_via_luart = [
+    "build.lua" # Build scripts
+]
+
+[Tests]
+tests = [
+    "test.lua", # Test scripts
+]
+
+[Changelog] # Changelog
+changes = """
+    - Lorem ipsum
+    - Lorem ipsum
+    - Lorem ipsum
+"""
+
