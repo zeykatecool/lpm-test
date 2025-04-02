@@ -21,6 +21,7 @@ files = [
 run_via_luart = [
     "build.lua" # Build scripts
 ]
+run_via_wluart = []
 
 [Changelog] # Changelog
 changes = """
