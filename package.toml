@@ -22,11 +22,6 @@ run_via_luart = [
     "build.lua" # Build scripts
 ]
 
-[Tests]
-tests = [
-    "test.lua", # Test scripts
-]
-
 [Changelog] # Changelog
 changes = """
     - Lorem ipsum
