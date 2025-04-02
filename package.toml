@@ -9,7 +9,7 @@ depends_on_wluart = false # Whether the package depends on wluart
 [Dependencies]
 luart_version = "1.8.0" # Minimum version of luart required
 packages = [
-   # { name = "PackageName" }
+   # "PackageName"
 ]
 
 [Install]
