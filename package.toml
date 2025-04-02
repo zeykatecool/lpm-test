@@ -7,7 +7,7 @@ license = "MIT" # License of the package
 depends_on_wluart = false # Whether the package depends on wluart
 
 [Dependencies]
-luart_version = "1.8.0^" # Minimum version of luart required
+luart_version = "1.8.0" # Minimum version of luart required
 packages = [
    # { name = "PackageName", version = "0.0.1" }
 ]
